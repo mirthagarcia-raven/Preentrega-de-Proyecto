@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Herrería García | Formosa, Argentina</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;500;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+
+
+<nav id="navbar">
+  <a href="#inicio" class="nav-logo" style="text-decoration:none;">
+    <span>Herrería García</span>
+    <span>Formosa · Argentina</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#galeria">Galería</a></li>
+    <li><a href="#sobre">Nosotros</a></li>
+    <li><a href="#testimonios">Testimonios</a></li>
+    <li><a href="#contacto" class="nav-cta">Cotizar</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menú">
+    
+  </button>
+</nav>
+
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#servicios" onclick="closeMobile()">Servicios</a>
+  <a href="#galeria" onclick="closeMobile()">Galería</a>
+  <a href="#sobre" onclick="closeMobile()">Nosotros</a>
+  <a href="#testimonios" onclick="closeMobile()">Testimonios</a>
+  <a href="#contacto" onclick="closeMobile()">Contacto</a>
+</div>
+
+<section id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Herrería García — Formosa, Argentina</p>
+    <h1 class="hero-title">
+      Forjamos<br>
+      <em>cada pieza</em><br>
+      con precisión
+    </h1>
+    <p class="hero-desc">
+      Más de 35 años creando puertas, portones, rejas y estructuras metálicas de alta calidad para hogares y comercios en Formosa Capital.
+    </p>
+    <div class="hero-actions">
+      <a href="#contacto" class="btn-primary"><span>Solicitar cotización</span></a>
+      <a href="#servicios" class="btn-secondary">Ver servicios</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat">
+      <span class="stat-num"></span>
+      <span class="stat-label">Años de experiencia</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">+800</span>
+      <span class="stat-label">Obras realizadas</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">100%</span>
+      <span class="stat-label">Garantía en trabajos</span>
+    </div>
+  </div>
+  <div class="hero-divider"></div>
+</section>
+
+
+<section id="servicios">
+  <div class="servicios-header reveal">
+    <div>
+      <p class="section-label">Lo que hacemos</p>
+      <h2 class="section-title">Nuestros<br>Servicios</h2>
+    </div>
+    <p class="section-subtitle" style="align-self:end;">Trabajamos con hierro, acero y aluminio para crear soluciones duraderas, funcionales y con acabado profesional.</p>
+  </div>
+  <div class="servicios-grid">
+    <div class="servicio-card reveal">
+      <span class="servicio-num">01</span>
+      <div class="servicio-icon">🚪</div>
+      <h3 class="servicio-nombre">Puertas y Portones</h3>
+      <p class="servicio-desc">Diseñamos y fabricamos puertas de entrada, portones vehiculares y batientes con acabado artesanal. Medidas estándar o a medida.</p>
+    </div>
+    <div class="servicio-card reveal">
+      <span class="servicio-num">02</span>
+      <div class="servicio-icon">🔩</div>
+      <h3 class="servicio-nombre">Rejas y Barandales</h3>
+      <p class="servicio-desc">Rejas de seguridad para ventanas, puertas y frentes. Barandales para escaleras y balcones con diseño clásico o moderno.</p>
+    </div>
+    <div class="servicio-card reveal">
+      <span class="servicio-num">03</span>
+      <div class="servicio-icon">📐</div>
+      <h3 class="servicio-nombre">Escaleras Metálicas</h3>
+      <p class="servicio-desc">Escaleras rectas, en L o caracol. Fabricadas en hierro o acero inoxidable con pasamanos incluido y garantía de instalación.</p>
+    </div>
+    <div class="servicio-card reveal">
+      <span class="servicio-num">04</span>
+      <div class="servicio-icon">⚡</div>
+      <h3 class="servicio-nombre">Soldadura en General</h3>
+      <p class="servicio-desc">Soldadura MIG, TIG y por arco. Reparaciones, uniones y fabricación de piezas metálicas para uso industrial y doméstico.</p>
+    </div>
+    <div class="servicio-card reveal">
+      <span class="servicio-num">05</span>
+      <div class="servicio-icon">🔧</div>
+      <h3 class="servicio-nombre">Reparaciones y Mantenimiento</h3>
+      <p class="servicio-desc">Reparación de rejas, portones y estructuras con daño por óxido, impacto o desgaste. Mantenimiento preventivo y correctivo.</p>
+    </div>
+    <div class="servicio-card reveal">
+      <span class="servicio-num">06</span>
+      <div class="servicio-icon">🔧</div>
+      <h3 class="servicio-nombre">Techado</h3>
+      <p class="servicio-desc">Reparación o creación de techos para el hogar, jardin, tinglados, etc.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="galeria">
+  <div class="galeria-header reveal">
+    <p class="section-label">Nuestros trabajos</p>
+    <h2 class="section-title">Galería de<br>Proyectos</h2>
+  </div>
+  <div class="galeria-grid reveal">
+    <div class="galeria-item">
+      <img src="./imagen/porton vehicular.jpg" alt="Portón de herrería" />
+      <div class="galeria-overlay"><span class="galeria-tag">Portón vehicular</span></div>
+    </div>
+    <div class="galeria-item">
+      <img src="./imagen/reja de seguridad.jpg" alt="Rejas de seguridad" />
+      <div class="galeria-overlay"><span class="galeria-tag">Rejas de seguridad</span></div>
+    </div>
+    <div class="galeria-item">
+      <img src="./imagen/soldadura.jpg" alt="Soldadura" />
+      <div class="galeria-overlay"><span class="galeria-tag">Trabajo de soldadura</span></div>
+    </div>
+    <div class="galeria-item">
+      <img src="./imagen/escalera metalica.jpg" alt="Escalera metálica" />
+      <div class="galeria-overlay"><span class="galeria-tag">Escalera metálica</span></div>
+    </div>
+    <div class="galeria-item">
+      <img src="./imagen/barandal decorativo.jpg" alt="Barandal" />
+      <div class="galeria-overlay"><span class="galeria-tag">Barandal decorativo</span></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="sobre">
+  <div class="sobre-img reveal">
+    <img src="./imagen/artesano del metal.jpg" alt="Herrero trabajando" />
+    <div class="sobre-badge">
+      <span>+35</span>
+      <span>Años de<br>experiencia</span>
+    </div>
+  </div>
+  <div class="sobre-texto reveal">
+    <p class="section-label">Quiénes somos</p>
+    <h2 class="section-title">Artesanos del<br>metal desde 1990</h2>
+    <p>Herrería García nació con la vocación de ofrecer trabajos en metal de alta calidad a los hogares y comercios de Formosa Capital. Lo que comenzó como un pequeño taller familiar hoy es un referente en la región.</p>
+    <p>Trabajamos con hierro, acero y aluminio, combinando técnicas tradicionales de forja con herramientas modernas para garantizar resistencia, estética y durabilidad en cada obra entregada.</p>
+    <p>Cada proyecto es tratado de manera personalizada: desde el diseño hasta la instalación, acompañamos al cliente en cada paso del proceso.</p>
+    <div class="sobre-valores">
+      <div class="valor">
+        <span class="valor-icon">✦</span>
+        <span class="valor-text">Trabajos garantizados y con materiales de primera calidad</span>
+      </div>
+      <div class="valor">
+        <span class="valor-icon">✦</span>
+        <span class="valor-text">Presupuesto sin cargo y asesoramiento personalizado</span>
+      </div>
+      <div class="valor">
+        <span class="valor-icon">✦</span>
+        <span class="valor-text">Puntualidad en la entrega de cada proyecto</span>
+      </div>
+      <div class="valor">
+        <span class="valor-icon">✦</span>
+        <span class="valor-text">Atención directa con el maestro herrero</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="testimonios">
+  <div class="testimonios-header reveal">
+    <p class="section-label">Clientes satisfechos</p>
+    <h2 class="section-title">Lo que dicen<br>de nosotros</h2>
+  </div>
+  <div class="testimonios-grid">
+    <div class="testimonio reveal">
+      <div class="testimonio-quote">"</div>
+      <p class="testimonio-texto">Contratamos a Herrería García para instalar el portón del garage y las rejas del frente. El trabajo fue impecable, los tiempos se cumplieron y el precio fue muy justo. Muy recomendables.</p>
+      <div class="testimonio-autor">
+        <div class="autor-avatar">MA</div>
+        <div>
+          <div class="estrellas">★★★★★</div>
+          <div class="autor-nombre">Marcelo Alderete</div>
+          <div class="autor-lugar">Formosa Capital</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonio reveal">
+      <div class="testimonio-quote">"</div>
+      <p class="testimonio-texto">Nos fabricaron una escalera metálica para el local y quedó hermosa. Además de la calidad del trabajo, siempre estuvieron disponibles para consultas. Un servicio de primera.</p>
+      <div class="testimonio-autor">
+        <div class="autor-avatar">LG</div>
+        <div>
+          <div class="estrellas">★★★★★</div>
+          <div class="autor-nombre">Lorena Giménez</div>
+          <div class="autor-lugar">Formosa Capital</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonio reveal">
+      <div class="testimonio-quote">"</div>
+      <p class="testimonio-texto">Excelente trabajo de soldadura para reparar las rejas de mi comercio. Rápido, prolijo y a buen precio. Sin duda volvería a contratar sus servicios sin dudarlo.</p>
+      <div class="testimonio-autor">
+        <div class="autor-avatar">RC</div>
+        <div>
+          <div class="estrellas">★★★★★</div>
+          <div class="autor-nombre">Roberto Cantero</div>
+          <div class="autor-lugar">Formosa Capital</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contacto">
+  <div class="contacto-info reveal">
+    <p class="section-label">Contacto</p>
+    <h2>Pidenos tu<br>presupuesto</h2>
+    <p>Atendemos en Formosa Capital y alrededores. Respondemos consultas por WhatsApp de lunes a sábado de 8:00 a 18:00 hs.</p>
+    <div class="contacto-datos">
+      <div class="dato">
+        <div class="dato-icon">📞</div>
+        <div class="dato-text">
+          <strong>Teléfono / WhatsApp</strong>
+          +54 370 540-5749
+        </div>
+      </div>
+      <div class="dato">
+        <div class="dato-icon">📍</div>
+        <div class="dato-text">
+          <strong>Zona de servicio</strong>
+          Formosa Capital — Formosa, Argentina
+        </div>
+      </div>
+      <div class="dato">
+        <div class="dato-icon">🕐</div>
+        <div class="dato-text">
+          <strong>Horario de atención</strong>
+          Lunes a sábado · 8:00 a 18:00 hs
+        </div>
+      </div>
+    </div>
+    <div class="mapa-wrapper" style="margin-top:2.5rem;">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115419.33024882697!2d-60.00268!3d-26.18354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94534e5e2f5b89c3%3A0x51bd58d3c4f3f9ad!2sFormosa%2C%20Argentina!5e0!3m2!1ses!2sar!4v1716000000000!5m2!1ses!2sar"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Formosa Capital en Google Maps"
+      ></iframe>
+    </div>
+  </div>
+
+  <div class="cotizacion-form reveal">
+    <h3 class="form-title">Solicitar cotización</h3>
+    <p class="form-subtitle">Completá el formulario y te respondemos a la brevedad</p>
+    <form id="cotizacionForm" onsubmit="enviarForm(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Nombre *</label>
+          <input type="text" class="form-input" placeholder="Tu nombre" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Teléfono *</label>
+          <input type="tel" class="form-input" placeholder="Tu teléfono" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Correo electrónico</label>
+        <input type="email" class="form-input" placeholder="Tu email (opcional)" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Sos de Formosa Capital*</label>
+        <select class="form-select" required>
+          <option>Si</option>
+          <option>No</option>
+        </select>
+        <label class="form-label">Servicio de interés *</label>
+        <select class="form-select" required>
+          <option value="" disabled selected>Seleccioná un servicio</option>
+          <option>Puertas y portones</option>
+          <option>Rejas y barandales</option>
+          <option>Escaleras metálicas</option>
+          <option>Soldadura en general</option>
+          <option>Reparaciones y mantenimiento</option>
+          <option>Otro</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Descripción del trabajo *</label>
+        <textarea class="form-textarea" placeholder="Describí brevemente qué necesitás (medidas, material, detalles del proyecto...)" required></textarea>
+      </div>
+      <button type="submit" class="btn-submit">Enviar solicitud →</button>
+    </form>
+    <div class="form-success" id="formSuccess">
+      ¡Consulta enviada con éxito!<br>
+      <span style="font-size:1rem;color:var(--gris-claro);font-family:'Barlow',sans-serif;font-weight:300;">Te contactaremos a la brevedad.</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">
+    <span>Herrería García</span>
+    <span>Formosa · Argentina</span>
+    <p class="footer-desc">Fabricación e instalación de trabajos en hierro y metal con más de 15 años de trayectoria en Formosa Capital.</p>
+  </div>
+  <div>
+    <p class="footer-title">Navegación</p>
+    <ul class="footer-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#sobre">Nosotros</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+  <div>
+    <p class="footer-title">Contacto</p>
+    <ul class="footer-links">
+      <li><a href="https://wa.me/543705405749">📱 +54 370 540-5749</a></li>
+      <li><a href="#contacto">📍 Formosa Capital, Argentina</a></li>
+      <li><a href="#contacto">🕐 Lun–Sáb · 8:00–18:00 hs</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2026 <span>Herrería García</span>. Todos los derechos reservados.</p>
+    <p class="footer-copy">Diseñado con ✦ en Formosa, Argentina</p>
+  </div>
+</footer>
+
+<div class="wa-float">
+  <span class="wa-tooltip">¡Escribinos por WhatsApp!</span>
+  <a class="wa-btn" href="https://wa.me/543705405749?text=Hola%2C%20me%20interesa%20solicitar%20un%20presupuesto" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
